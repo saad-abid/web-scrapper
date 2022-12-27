@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <title>Web Scrapper</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="./index.html">
+        <span>Web Scrapper</span>
+      </a>
+    </header>
+    <main class="MainData">
+      <form method="post">
+        <label>
+          <input class="searchinput" placeholder="eg: What is software engineering" type="text" required />
+        </label><br>
+        <button class="form_Btn">Search<span></span></button>
+      </form>
+      <div class="Data">
+        <div class="QnA">
+          <p>This is a web scrapper which get the top questions and its answers form google first page according to your
+            search and display it
+            in a better format.</p>
+        </div>
+      </div>
+    </main>
+    <div class="Loading_Page">
+      <img src="./BeanEater.gif" alt="Loading Gif" style="width: 200px;height:200px;" />
+      <h2>Scrapping Data...</h2>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="./script.js"></script>

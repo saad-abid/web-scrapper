@@ -1,0 +1,18 @@
+{
+  "name": "web_scrapper",
+  "version": "1.0.0",
+  "description": "Web Scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jame",
+  "license": "ISC",
+  "dependencies": {
+    "const": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "puppeteer": "^16.1.1"
+  }
+}
